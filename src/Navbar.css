@@ -1,0 +1,29 @@
+.Navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 10px; 
+}
+
+.Navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0; 
+}
+
+.Navbar li {
+  margin: 0 70px; 
+  color: white; 
+}
+
+.SearchBar {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.SearchButton {
+  padding: 5px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}

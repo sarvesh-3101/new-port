@@ -1,0 +1,30 @@
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.experience-card {
+  background-color: rgb(215, 196, 54);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-container {
+  margin-top: 20px;
+}
+
+.skill {
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: #4caf50;
+  height: 20px;
+  border-radius: 5px;
+  transition: width 0.5s;
+}
